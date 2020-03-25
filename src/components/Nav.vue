@@ -22,7 +22,7 @@ export default {
                 <a :class="['nav-btn', {'text-yellow-CI': idx === navIdx}]" @click="activeNav(idx, 'l')">{{item}}</a>
             </li>
         </ul>
-        <img class="mx-12" src="../assets/Logo.png" alt="">
+        <img class="mx-12" src="../assets/logo.png" alt="">
         <ul class="flex">
             <li v-for="(item, idx) in NavRight" :key="item" :class="{'mr-8': item !== 'Winter'}">
                 <a :class="['nav-btn', {'text-yellow-CI': idx + 4 === navIdx}]" @click="activeNav(idx, 'r')">{{item}}</a>
