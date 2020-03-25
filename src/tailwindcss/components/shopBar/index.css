@@ -1,0 +1,29 @@
+.shop-bar-height{
+    height: 60px;
+}
+.shop-bar-btn{
+    @apply cursor-pointer text-xs ml-10 font-bold;
+}
+.box-width{
+    width: 39px;
+}
+.box-height{
+    height: 39px;
+}
+.amount-box{
+    width: 117px;
+    @apply box-height;
+}
+.search-box{
+    width: 260px;
+    @apply box-height;
+}
+.search-width{
+    width: 85%;
+}
+.Cart-Icon{
+    background-image: url("../../../assets/Cart-Icon.png");
+}
+.Search-Icon{
+    background-image: url("../../../assets/Search-Icon.png");
+}

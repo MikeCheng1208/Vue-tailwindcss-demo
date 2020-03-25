@@ -1,0 +1,17 @@
+.max-w-mid{
+    max-width: 1173px;
+}
+
+.ticket-card{
+    width: 23%;
+}
+
+.article-btn{
+    width: 170px;
+    height: 50px;
+    @apply duration-150 transition-colors flex justify-center border-solid items-center text-sm border border-yellow-CI mt-10 cursor-pointer ;
+}
+
+.article-btn:hover{
+    @apply bg-yellow-CI text-white;
+}

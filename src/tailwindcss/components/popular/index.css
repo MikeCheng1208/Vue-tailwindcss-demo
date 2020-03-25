@@ -1,0 +1,3 @@
+.popular-btn{
+    @apply cursor-pointer text-sm text-black-CI px-7;
+}

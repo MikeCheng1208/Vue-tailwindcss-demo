@@ -1,32 +1,46 @@
+<script>
+import Header from './components/Header.vue';
+import Nav from './components/Nav.vue';
+import TopBar from './components/TopBar.vue';
+import ShopBar from "./components/ShopBar.vue";
+import Popular from "./components/Popular.vue";
+import NewCollection from "./components/NewCollection.vue";
+import Sole from "./components/Sole.vue";
+import SubscribeBar from "./components/SubscribeBar.vue";
+import FromOurCollection from "./components/FromOurCollection.vue";
+import StoryBehind from "./components/StoryBehind.vue";
+import Footer from "./components/Footer.vue";
+export default {
+  components:{
+    Header,
+    Nav,
+    TopBar,
+    ShopBar,
+    Popular,
+    NewCollection,
+    Sole,
+    SubscribeBar,
+    FromOurCollection,
+    StoryBehind,
+    Footer,
+  }
+};
+</script>
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <Header/>
+    <Nav/>
+    <TopBar/>
+    <ShopBar/>
+    <Popular/> 
+    <NewCollection/>
+    <Sole/>
+    <SubscribeBar/>
+    <FromOurCollection/>
+    <StoryBehind/>
+    <Footer/>
   </div>
 </template>
-
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
 </style>

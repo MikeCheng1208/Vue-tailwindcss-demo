@@ -1,0 +1,7 @@
+.story-height{
+    height: 510px;
+}
+.story-behind-bg{
+    background-image: url('https://source.unsplash.com/user/erondu/946x510');
+    @apply bg-cover bg-center;
+}

@@ -1,0 +1,12 @@
+.top-bar-height{
+    height: 450px;
+}
+.show-btn{
+    width: 200px;
+    height: 50px;
+    @apply flex justify-center border-solid items-center text-xl border border-yellow-CI mt-7 cursor-pointer ;
+}
+
+.show-btn:hover{
+    @apply bg-yellow-CI text-white;
+}

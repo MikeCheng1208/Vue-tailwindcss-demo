@@ -1,0 +1,19 @@
+.btn-links{
+    @apply duration-150 transition-colors block w-full cursor-pointer leading-9 text-xs;
+}
+.btn-links:hover{
+    @apply text-yellow-CI;
+}
+.footer-mail{
+    width: 370px;
+    height: 45px;
+    @apply flex justify-center items-center border border-yellow-CI border-solid;
+}
+.icon-btn{
+    width: 20px;
+    height: 20px;
+    @apply cursor-pointer mr-9;
+}
+.flex-center{
+    @apply flex justify-center items-center;
+}
